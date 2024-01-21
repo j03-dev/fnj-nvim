@@ -1,7 +1,6 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", ",", vim.cmd.noh)
-vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
-vim.keymap.set("n", "<A-e>", vim.cmd.NERDTreeToggle)
+vim.keymap.set("n", "<leader>e", vim.cmd.NvimTreeToggle)
 vim.keymap.set("n", ",", vim.cmd.noh)
 vim.keymap.set("n", "B", ":!rbuild % | bash  <CR>")
 vim.keymap.set("n", "<C-o>", ":e ~/.config/nvim <CR>")

@@ -29,9 +29,15 @@ return require('packer').startup(function(use)
     }
 
     use {
-      'VonHeikemen/fine-cmdline.nvim',
-      requires = {
-        {'MunifTanjim/nui.nvim'}
-      }
+        'VonHeikemen/fine-cmdline.nvim',
+        requires = {
+            { 'MunifTanjim/nui.nvim' }
+        }
+    }
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons', -- optional
+        },
     }
 end)

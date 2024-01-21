@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/j03/.local/share/nvim/site/pack/packer/start/coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
+  ["fine-cmdline.nvim"] = {
+    loaded = true,
+    path = "/home/j03/.local/share/nvim/site/pack/packer/start/fine-cmdline.nvim",
+    url = "https://github.com/VonHeikemen/fine-cmdline.nvim"
+  },
   gruvbox = {
     loaded = true,
     path = "/home/j03/.local/share/nvim/site/pack/packer/start/gruvbox",
@@ -93,6 +98,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/j03/.local/share/nvim/site/pack/packer/start/incline.nvim",
     url = "https://github.com/b0o/incline.nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/j03/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["melange-nvim"] = {
     loaded = true,
@@ -104,10 +114,21 @@ _G.packer_plugins = {
     path = "/home/j03/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
     url = "https://github.com/EdenEast/nightfox.nvim"
   },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/home/j03/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/j03/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/j03/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
